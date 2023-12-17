@@ -23,7 +23,6 @@ public class MoviesApplication {
 						.allowedMethods("*")
 						.allowedHeaders("*")
 						.allowCredentials(false).maxAge(3600);
-
 			}
 		};
 	}
